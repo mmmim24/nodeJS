@@ -10,4 +10,5 @@ customEmitter.on('response',(name,age)=>{
 })
 
 
-customEmitter.emit('response','john',34)
+// customEmitter.emit('response','john',34)
+module.exports = customEmitter

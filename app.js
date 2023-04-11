@@ -1,6 +1,3 @@
-const _ = require('lodash')
+const x = require('./event-emitter')
 
-const items = [1,[2,[3,[4]]]]
-const newItems = _.flattenDeep(items)
-console.log(newItems)
-console.log('Hello everyone')
+x.emit(`response`,'mim','23')
